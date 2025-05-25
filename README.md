@@ -13,8 +13,8 @@ UML class ada di dalam folder TALESHIRE/data/uml
 Kontributor pengembangan :
 Maps : Romadhon Santoso
 Karakter : Ahmad Mulia Saputra
-Battle, Sound : Daffa Hakim Matondang
+Battle, Sound :M.Daffa Hakim Matondang
 Font, Icons : Rifka Priseila br Silitonga
-Debugging, Game Logic : Muharyan Syaifullah
+Debugging, Game Logic : Muharyan Syaifullah , M.Daffa Hakim Matondang
 
 Referensi : Pokemon, Yugi Oh, Stardew Valley
