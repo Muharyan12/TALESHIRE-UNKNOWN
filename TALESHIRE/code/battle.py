@@ -4,7 +4,7 @@ from groups import BattleSprites
 from game_data import ATTACK_DATA
 from support import draw_bar
 from mytimer import Timer
-from random import choice
+from random import choice, random
 
 class Battle:
 	# main
@@ -109,7 +109,23 @@ class Battle:
 						self.current_monster.activate_attack(monster_sprite, self.selected_attack)
 						self.selected_attack, self.current_monster, self.selection_mode = None, None, None
 					else:
-						if monster_sprite.monster.health < monster_sprite.monster.get_stat('max_health') * 0.9:
+						player_monster = self.current_monster.monster
+						# --- LOGIKA CATCH BARU ---
+						hp_ratio = monster_sprite.monster.health / monster_sprite.monster.get_stat('max_health')
+						level_diff = player_monster.level - monster_sprite.monster.level
+						base_chance = 0.2  # peluang dasar 20%
+						# Semakin rendah HP, semakin besar peluang
+						if hp_ratio < 0.2:
+							base_chance += 0.5  # +50% jika HP < 20%
+						elif hp_ratio < 0.5:
+							base_chance += 0.2  # +20% jika HP < 50%
+						# Level player lebih tinggi, tambah peluang
+						if level_diff > 0:
+							base_chance += min(0.1 * level_diff, 0.3)  # max +30% dari selisih level
+
+						# Clamp peluang antara 0.2 dan 0.95
+						base_chance = min(max(base_chance, 0.2), 0.95)
+						if random() < base_chance:
 							self.monster_data['player'][len(self.monster_data['player'])] = monster_sprite.monster
 							monster_sprite.delayed_kill(None)
 							self.update_all_monsters('resume')
@@ -208,6 +224,11 @@ class Battle:
 						new_monster_data = [(monster, index, monster_sprite.pos_index, 'player') for index, monster in available_monsters][0]
 					else:
 						new_monster_data = None
+						# Tambahkan flag kalah
+						self.battle_lost = True
+						self.battle_message = "Kamu Kalah! Tekan [SPACE] untuk kembali ke rumah."
+						# Tunggu input player
+						return
 				else:
 					new_monster_data = (list(self.monster_data['opponent'].values())[0], monster_sprite.index, monster_sprite.pos_index, 'opponent') if self.monster_data['opponent'] else None
 					if self.monster_data['opponent']:
@@ -220,6 +241,8 @@ class Battle:
 				monster_sprite.delayed_kill(new_monster_data)
 
 	def opponent_attack(self):
+		if self.current_monster is None:
+			return
 		ability = choice(self.current_monster.monster.get_abilities())
 		random_target = choice(self.opponent_sprites.sprites()) if ATTACK_DATA[ability]['target'] == 'player' else choice(self.player_sprites.sprites())
 		self.current_monster.activate_attack(random_target, ability)
@@ -348,3 +371,16 @@ class Battle:
 		self.display_surface.blit(self.bg_surf, (0,0))
 		self.battle_sprites.draw(self.current_monster, self.selection_side, self.selection_mode, self.indexes['target'], self.player_sprites, self.opponent_sprites)
 		self.draw_ui()
+
+		if hasattr(self, 'battle_lost') and self.battle_lost:
+			# Tampilkan pesan kalah di layar
+			font = pygame.font.SysFont(None, 48)
+			text = font.render(self.battle_message, True, (255, 0, 0))
+			rect = text.get_rect(center=(self.display_surface.get_width()//2, self.display_surface.get_height()//2))
+			self.display_surface.blit(text, rect)
+			# Tunggu input SPACE untuk keluar battle
+			keys = pygame.key.get_pressed()
+			if keys[pygame.K_SPACE]:
+				self.end_battle(None)  # Panggil callback ke main.py
+			return
+

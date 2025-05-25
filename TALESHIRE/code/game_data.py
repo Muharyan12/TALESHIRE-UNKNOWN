@@ -2,8 +2,8 @@ TRAINER_DATA = {
 	'o1': {
 		'monsters': {0: ('Jacana', 14), 1: ('Cleaf', 15)},
 		'dialog': {
-			'default': ['Hai bro apa kabar?', 'Gass Battle', 'FIGHT!'], 
-			'defeated': ['Wah Kuat Banget Kamu!', 'Lanjutkan Perjalananmu!']},
+			'default': ['Halo bro, apa kabar?', 'Ayo bertarung!', 'LAWAN!','Siap untuk pertarungan?','Jangan menyerah!'], 
+			'defeated': ['Kamu hebat sekali!', 'Teruskan perjalananmu!', 'Kamu benar-benar kuat!']},
 		'directions': ['down'],
 		'look_around': True,
 		'defeated': False,
@@ -12,8 +12,8 @@ TRAINER_DATA = {
 	'o2': {
 		'monsters': {0: ('Atrox', 14), 1: ('Pouch', 15), 2: ('Draem', 13), 3: ('Cindrill', 13)},
 		'dialog': {
-			'default': ['I don\'t like sand', 'It\'s coarse and rough', 'oh god, fight'], 
-			'defeated': ['May the force be with you']},
+			'default': ['Aku tidak suka pasir', 'Kasarnya menyebalkan', 'Astaga, bertarung!','Pasir ini bikin kesal','Ayo lawan aku!'], 
+			'defeated': ['Semoga kekuatan menyertaimu', 'Kamu hebat!']},
 		'directions': ['left', 'down'],
 		'look_around': False,
 		'defeated': False,
@@ -22,8 +22,8 @@ TRAINER_DATA = {
 	'o3': {
 		'monsters': {0: ('Atrox', 14), 1: ('Pouch', 15), 2: ('Draem', 13), 3: ('Cindrill', 13)},
 		'dialog': {
-			'default': ['I love skating!', 'FIGHT!'], 
-			'defeated': ['Good luck with the boss', 'It\'s so cold in here']},
+			'default': ['Aku suka bermain skating!', 'LAWAN!','Ayo tunjukkan kemampuanmu!'], 
+			'defeated': ['Semoga beruntung menghadapi bos', 'Dingin sekali di sini','Jangan menyerah!']},
 		'directions': ['left', 'right', 'up', 'down'],
 		'look_around': True,
 		'defeated': False,
@@ -32,8 +32,8 @@ TRAINER_DATA = {
 	'o4': {
 		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Atrox',24), 3: ('Finiette', 30)},
 		'dialog': {
-			'default': ['I love skating!', 'FIGHT!'], 
-			'defeated': ['Good luck with the boss', 'It\'s so cold in here']},
+			'default': ['Aku suka bermain skating!', 'LAWAN!','Ayo bertarung dengan serius!'], 
+			'defeated': ['Semoga beruntung menghadapi bos', 'Dingin sekali di sini','Kamu hebat!']},
 		'directions': ['right'],
 		'look_around': True,
 		'defeated': False,
@@ -42,8 +42,8 @@ TRAINER_DATA = {
 	'o5': {
 		'monsters': {0: ('Plumette', 20), 1: ('Ivieron', 22), 2: ('Atrox',24), 3: ('Pouch', 19)},
 		'dialog': {
-			'default': ['So you want to challenge the big ones', 'This will be fun!'], 
-			'defeated': ['I hope the lawyers will never spot you', '<3']},
+			'default': ['Jadi kamu ingin menantang yang besar', 'Ini akan menyenangkan!','Siap untuk tantangan?'], 
+			'defeated': ['Semoga pengacara tidak menemukannya', '<3','Kamu luar biasa!']},
 		'directions': ['up', 'right'],
 		'look_around': True,
 		'defeated': False,
@@ -52,8 +52,8 @@ TRAINER_DATA = {
 	'o6': {
 		'monsters': {0: ('Finsta', 15), 1: ('Finsta', 15), 2: ('Finsta', 15)},
 		'dialog': {
-			'default': ['I love skating!', 'FIGHT!'], 
-			'defeated': ['Good luck with the boss', 'It\'s so cold in here']},
+			'default': ['Aku suka bermain skating!', 'LAWAN!','Ayo tunjukkan kemampuanmu!'], 
+			'defeated': ['Semoga beruntung menghadapi bos', 'Dingin sekali di sini','Jangan menyerah!']},
 		'directions': ['down'],
 		'look_around': False,
 		'defeated': False,
@@ -62,8 +62,8 @@ TRAINER_DATA = {
 	'o7': {
 		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Atrox',24), 3: ('Finiette', 30)},
 		'dialog': {
-			'default': ['There are no bugs in the snow!'], 
-			'defeated': ['Maybe I should check a vulcano...', 'It\'s so cold in here']},
+			'default': ['Tidak ada serangga di salju!','Salju ini dingin'], 
+			'defeated': ['Mungkin aku harus cek gunung berapi...', 'Dingin sekali di sini','Kamu hebat!']},
 		'directions': ['right'],
 		'look_around': False,
 		'defeated': False,
@@ -72,8 +72,8 @@ TRAINER_DATA = {
 	'p1': {
 		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Atrox',24), 3: ('Finiette', 30)},
 		'dialog': {
-			'default': ['I love trees', 'and fights'], 
-			'defeated': ['Good luck with the boss!']},
+			'default': ['Aku suka pohon', 'dan pertarungan','Ayo bertarung!'], 
+			'defeated': ['Semoga beruntung menghadapi bos!','Kamu hebat!']},
 		'directions': ['right'],
 		'look_around': False,
 		'defeated': False,
@@ -82,8 +82,8 @@ TRAINER_DATA = {
 	'p2': {
 		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Atrox',24), 3: ('Finiette', 30)},
 		'dialog': {
-			'default': ['I love trees', 'and fights'], 
-			'defeated': ['Good luck with the boss!']},
+			'default': ['Aku suka pohon', 'dan pertarungan','Ayo bertarung!'], 
+			'defeated': ['Semoga beruntung menghadapi bos!','Kamu hebat!']},
 		'directions': ['right'],
 		'look_around': False,
 		'defeated': False,
@@ -92,8 +92,8 @@ TRAINER_DATA = {
 	'p3': {
 		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Atrox',24), 3: ('Finiette', 30)},
 		'dialog': {
-			'default': ['I love trees', 'and fights'], 
-			'defeated': ['Good luck with the boss!']},
+			'default': ['Aku suka pohon', 'dan pertarungan','Ayo bertarung!'], 
+			'defeated': ['Semoga beruntung menghadapi bos!','Kamu hebat!']},
 		'directions': ['right'],
 		'look_around': False,
 		'defeated': False,
@@ -102,18 +102,18 @@ TRAINER_DATA = {
 	'p4': {
 		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Atrox',24), 3: ('Finiette', 30)},
 		'dialog': {
-			'default': ['I love trees', 'and fights'], 
-			'defeated': ['Good luck with the boss!']},
+			'default': ['Aku suka pohon', 'dan pertarungan','Ayo bertarung!'], 
+			'defeated': ['Semoga beruntung menghadapi bos!','Kamu hebat!']},
 		'directions': ['right'],
 		'look_around': False,
 		'defeated': False,
 		'biome': 'forest'
 		},
 	'px': {
-		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Atrox',24), 3: ('Finiette', 30)},
+		'monsters': {0: ('Friolera', 40), 1: ('Gulfin', 40), 2: ('Atrox',50), 3: ('Finiette', 60)},
 		'dialog': {
-			'default': ['I love trees', 'and fights'], 
-			'defeated': ['Good luck with the boss!']},
+			'default': ['Aku adalah boss disini', 'hadapi aku kawan!','Ayo bertarung!'], 
+			'defeated': ['Urgghh','Aku kalah...','Kamu hebat!']},
 		'directions': ['right'],
 		'look_around': False,
 		'defeated': False,
@@ -122,8 +122,8 @@ TRAINER_DATA = {
 	'w1': {
 		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Draem',24), 3: ('Finiette', 30)},
 		'dialog': {
-			'default': ['It\'s so cold in here', 'maybe a fight will warm me up'], 
-			'defeated': ['Good luck with the boss!']},
+			'default': ['Dingin sekali di sini', 'mungkin bertarung akan menghangatkanku','Ayo lawan aku!'], 
+			'defeated': ['Semoga beruntung menghadapi bos!','Kamu hebat!']},
 		'directions': ['left'],
 		'look_around': True,
 		'defeated': False,
@@ -132,8 +132,8 @@ TRAINER_DATA = {
 	'w2': {
 		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Draem',24), 3: ('Finiette', 30)},
 		'dialog': {
-			'default': ['It\'s so cold in here', 'maybe a fight will warm me up'], 
-			'defeated': ['Good luck with the boss!']},
+			'default': ['Dingin sekali di sini', 'mungkin bertarung akan menghangatkanku','Ayo lawan aku!'], 
+			'defeated': ['Semoga beruntung menghadapi bos!','Kamu hebat!']},
 		'directions': ['right'],
 		'look_around': True,
 		'defeated': False,
@@ -142,8 +142,8 @@ TRAINER_DATA = {
 	'w3': {
 		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Draem',24), 3: ('Finiette', 30)},
 		'dialog': {
-			'default': ['It\'s so cold in here', 'maybe a fight will warm me up'], 
-			'defeated': ['Good luck with the boss!']},
+			'default': ['Dingin sekali di sini', 'mungkin bertarung akan menghangatkanku','Ayo lawan aku!'], 
+			'defeated': ['Semoga beruntung menghadapi bos!','Kamu hebat!']},
 		'directions': ['right'],
 		'look_around': True,
 		'defeated': False,
@@ -152,8 +152,8 @@ TRAINER_DATA = {
 	'w4': {
 		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Draem',24), 3: ('Finiette', 30)},
 		'dialog': {
-			'default': ['It\'s so cold in here', 'maybe a fight will warm me up'], 
-			'defeated': ['Good luck with the boss!']},
+			'default': ['Dingin sekali di sini', 'mungkin bertarung akan menghangatkanku','Ayo lawan aku!'], 
+			'defeated': ['Semoga beruntung menghadapi bos!','Kamu hebat!']},
 		'directions': ['left'],
 		'look_around': True,
 		'defeated': False,
@@ -172,8 +172,8 @@ TRAINER_DATA = {
 	'wx': {
 		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Draem',24), 3: ('Finiette', 30)},
 		'dialog': {
-			'default': ['I hope you brought rations', 'This will be a long journey'], 
-			'defeated': ['Congratultion!']},
+			'default': ['Semoga kamu membawa bekal', 'Perjalanan ini akan panjang','Ayo semangat!'], 
+			'defeated': ['Selamat!','Hebat!']},
 		'directions': ['down'],
 		'look_around': False,
 		'defeated': False,
@@ -182,8 +182,8 @@ TRAINER_DATA = {
 	'f1': {
 		'monsters': {0: ('Cindrill', 15), 1: ('Jacana', 20), 2: ('Draem',24), 3: ('Atrox', 30)},
 		'dialog': {
-			'default': ['This place feels kinda warm...', 'fight!'], 
-			'defeated': ['Congratultion!']},
+			'default': ['Tempat ini terasa hangat...', 'bertarung!','Ayo lawan aku!'], 
+			'defeated': ['Selamat!','Hebat!']},
 		'directions': ['right'],
 		'look_around': True,
 		'defeated': False,
@@ -192,8 +192,8 @@ TRAINER_DATA = {
 	'f2': {
 		'monsters': {0: ('Cindrill', 15), 1: ('Jacana', 20), 2: ('Draem',24), 3: ('Atrox', 30)},
 		'dialog': {
-			'default': ['This place feels kinda warm...', 'fight!'], 
-			'defeated': ['Congratultion!']},
+			'default': ['Tempat ini terasa hangat...', 'bertarung!','Ayo lawan aku!'], 
+			'defeated': ['Selamat!','Hebat!']},
 		'directions': ['right', 'left'],
 		'look_around': False,
 		'defeated': False,
@@ -202,8 +202,8 @@ TRAINER_DATA = {
 	'f3': {
 		'monsters': {0: ('Cindrill', 15), 1: ('Jacana', 20), 2: ('Draem',24), 3: ('Atrox', 30)},
 		'dialog': {
-			'default': ['This place feels kinda warm...', 'fight!'], 
-			'defeated': ['Congratultion!']},
+			'default': ['Tempat ini terasa hangat...', 'bertarung!','Ayo lawan aku!'], 
+			'defeated': ['Selamat!','Hebat!']},
 		'directions': ['right', 'left'],
 		'look_around': True,
 		'defeated': False,
@@ -212,8 +212,8 @@ TRAINER_DATA = {
 	'f4': {
 		'monsters': {0: ('Cindrill', 15), 1: ('Jacana', 20), 2: ('Draem',24), 3: ('Atrox', 30)},
 		'dialog': {
-			'default': ['This place feels kinda warm...', 'fight!'], 
-			'defeated': ['Congratultion!']},
+			'default': ['Tempat ini terasa hangat...', 'bertarung!','Ayo lawan aku!'], 
+			'defeated': ['Selamat!','Hebat!']},
 		'directions': ['up', 'right'],
 		'look_around': True,
 		'defeated': False,
@@ -222,8 +222,8 @@ TRAINER_DATA = {
 	'f5': {
 		'monsters': {0: ('Cindrill', 15), 1: ('Jacana', 20), 2: ('Draem',24), 3: ('Atrox', 30)},
 		'dialog': {
-			'default': ['This place feels kinda warm...', 'fight!'], 
-			'defeated': ['Congratultion!']},
+			'default': ['Tempat ini terasa hangat...', 'bertarung!','Ayo lawan aku!'], 
+			'defeated': ['Selamat!','Hebat!']},
 		'directions': ['left'],
 		'look_around': True,
 		'defeated': False,
@@ -242,8 +242,8 @@ TRAINER_DATA = {
 	'fx': {
 		'monsters': {0: ('Cindrill', 15), 1: ('Jacana', 20), 2: ('Draem',24), 3: ('Atrox', 30)},
 		'dialog': {
-			'default': ['Time to bring the heat', 'fight!'], 
-			'defeated': ['Congratultion!']},
+			'default': ['Saatnya panas-panasan', 'bertarung!','Ayo lawan aku!'], 
+			'defeated': ['Selamat!','Hebat!']},
 		'directions': ['down'],
 		'look_around': False,
 		'defeated': False,
@@ -254,12 +254,23 @@ TRAINER_DATA = {
 		'radius': 0,
 		'look_around': False,
 		'dialog': {
-			'default': ['Welcome to the hospital', 'Your monsters have been healed'], 
+			'default': ['Selamat datang di rumah sakit', 'Monstermu sudah sembuh'], 
 			'defeated': None},
 		'directions': ['down'],
 		'defeated': False,
 		'biome': None
-		}
+		},
+	'grass_boss': {
+		'monsters': {0: ('Pluma', 40), 1: ('Charmadillo', 38), 2: ('Finiette', 39)},
+		'dialog': {
+			'default': ['Akhirnya kau sampai di sini!', 'Aku adalah penjaga arena rumput!', 'Bersiaplah untuk pertarungan terakhir!'],
+			'defeated': ['Kau luar biasa!', 'Kemenangan ini milikmu!']
+		},
+		'directions': ['down'],
+		'look_around': False,
+		'defeated': False,
+		'biome': 'forest'
+	}
 }
 
 MONSTER_DATA = {
