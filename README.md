@@ -1,6 +1,6 @@
 # TALESHIRE-UNKNOWN
 
-Deskripsi Game : Game petualangan 2D yang mengusung tema eksplorasi dan pertarungan turn-based, Pemain akan menjelajahi dunia luas, berinteraksi dengan NPC, dan bertarung dengan makhluk yang disebut Beast, yang masing-masing memiliki elemen unik seperti FireBeast, WaterBeast, dan LeafBeast.
+Deskripsi Game : Game petualangan 2D yang mengusung tema eksplorasi dan pertarungan turn-based, Pemain akan menjelajahi dunia luas, berinteraksi dengan NPC, dan bertarung dengan makhluk yang disebut Beast, yang masing-masing memiliki elemen unik seperti FireBeast, WaterBeast, dan LeafBeast( Monster ).
 
 Dipendensi paket library : python, pygame, typescript dan tmx
 
