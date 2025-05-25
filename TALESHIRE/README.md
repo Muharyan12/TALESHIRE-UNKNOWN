@@ -1,19 +1,20 @@
-Video tutorial available here: https://www.youtube.com/watch?v=fo4e3njyGy0 
+# TALESHIRE-UNKNOWN
 
-An RPG made in Python that was inspired by Pokemon and the older Final Fantasy games. The code is CC0, you can use it for whatever purpose, including commercial projects. Attributions are appreciated but not required. 
+Deskripsi Game : Game petualangan 2D yang mengusung tema eksplorasi dan pertarungan turn-based, Pemain akan menjelajahi dunia luas, berinteraksi dengan NPC, dan bertarung dengan makhluk yang disebut Beast, yang masing-masing memiliki elemen unik seperti FireBeast, WaterBeast, dan LeafBeast.
 
-The artwork was made by Scarloxy and you can find them here: https://scarloxy.itch.io/mpwsp01 
+Dipendensi paket library : python, pygame, typescript dan tmx
 
-The sounds for the project are taken from a range of sources: 
-Fire attack: https://opengameart.org/content/spell-4-fire
-Slash attack: https://opengameart.org/content/knife-sharpening-slice-2
-Crack sounds: https://opengameart.org/content/5-break-crunch-impacts
-Overworld music: https://opengameart.org/content/nes-overworld-theme
-Notice sound: https://opengameart.org/content/10-8bit-coin-sounds
-Battle music: https://opengameart.org/content/boss-battle-1-8-bit-re-upload
+Cara menjalankan : 
+1. buka lah folder "Taleshire" (kalau belum dalam folder nya bisa membuka dengan command "cd")
+2. kalau sudah dalam folder nya, ketiklah di terminal "python main.py"
 
-Audio used in the video trailer: 
-https://opengameart.org/content/porkymon-battle-theme
-https://opengameart.org/content/face-the-facts
-https://opengameart.org/content/jay-the-doggo-music
+UML class ada di dalam folder TALESHIRE/data/uml
 
+Kontributor pengembangan :
+Maps : Romadhon Santoso
+Karakter : Ahmad Mulia Saputra
+Battle, Sound : Daffa Hakim Matondang
+Font, Icons : Rifka Priseila br Silitonga
+Debugging, Game Logic : Muharyan Syaifullah
+
+Referensi : Pokemon, Yugi Oh, Stardew Valley
