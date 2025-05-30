@@ -2,7 +2,7 @@ TRAINER_DATA = {
 	'o1': {
 		'monsters': {0: ('Jacana', 14), 1: ('Cleaf', 15)},
 		'dialog': {
-			'default': ['Halo bro, apa kabar?', 'Ayo bertarung!', 'LAWAN!','Siap untuk pertarungan?','Jangan menyerah!'], 
+			'default': ['Halo Petualang Baru!', 'Selamat Datang di Taleshire', 'Disini kamu akan bertemu banyak orang hebat dengan monsternya','Siap untuk pertarungan?','Jangan menyerah!'], 
 			'defeated': ['Kamu hebat sekali!', 'Teruskan perjalananmu!', 'Kamu benar-benar kuat!']},
 		'directions': ['down'],
 		'look_around': True,
@@ -162,8 +162,8 @@ TRAINER_DATA = {
 	'w5': {
 		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Draem',24), 3: ('Finiette', 30)},
 		'dialog': {
-			'default': ['It\'s so cold in here', 'maybe a fight will warm me up'], 
-			'defeated': ['Good luck with the boss!']},
+			'default': ['Duh disini lawanna EZ semua', 'Hei Kamu Ayo lawan aku!','Ayo bertarung!'], 
+			'defeated': ['semoga beruntung menghadapi bos!','Kamu hebat!']},
 		'directions': ['right'],
 		'look_around': True,
 		'defeated': False,
@@ -172,8 +172,8 @@ TRAINER_DATA = {
 	'wx': {
 		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Draem',24), 3: ('Finiette', 30)},
 		'dialog': {
-			'default': ['Semoga kamu membawa bekal', 'Perjalanan ini akan panjang','Ayo semangat!'], 
-			'defeated': ['Selamat!','Hebat!']},
+			'default': ['Hai Kelompok Unknown', "Selamat Kalian Telah Mencapai Stage ini",'Semoga Beruntung','Ayo lawan saya!!!'], 
+			'defeated': ['Selamat Kelompok Unknown!','Kalian Hebat!', "Kalian Mendapatkan nilai A dari Pak Habib!"]},
 		'directions': ['down'],
 		'look_around': False,
 		'defeated': False,
@@ -232,8 +232,8 @@ TRAINER_DATA = {
 	'f6': {
 		'monsters': {0: ('Cindrill', 15), 1: ('Jacana', 20), 2: ('Draem',24), 3: ('Atrox', 30)},
 		'dialog': {
-			'default': ['This place feels kinda warm...', 'fight!'], 
-			'defeated': ['Congratultion!']},
+			'default': ['Tempat ini panas', 'Lawan!'], 
+			'defeated': ['Selamat!']},
 		'directions': ['right'],
 		'look_around': True,
 		'defeated': False,
