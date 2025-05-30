@@ -74,12 +74,12 @@ class Game:
         # player monsters 
         self.player_monsters = {
             0: Monster('Ivieron', 100),
-            1: Monster('Atrox', 100),
+            1: Monster('Atrox', 5),
             2: Monster('Cindrill', 100),
-            3: Monster('Atrox', 100),
-            4: Monster('Sparchu', 100),
+            3: Monster('Atrox', 1),
+            4: Monster('Sparchu', 5),
             5: Monster('Gulfin', 100),
-            6: Monster('Jacana', 100),
+            6: Monster('Jacana', 8),
         }
         for monster in self.player_monsters.values():
             monster.xp += randint(0,monster.level * 100)
